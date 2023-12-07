@@ -89,6 +89,19 @@ header {
     cursor: pointer;
 }
 
+.finalheader{
+    display: flex;
+    flex-direction: row;
+}
+.perfio{
+    margin-left: 10px;
+    border: none;
+    background-color: #00000000;
+}
+.perfio img{
+    width: 2.3rem;
+    cursor: pointer;
+}
 
 /* header */
 
