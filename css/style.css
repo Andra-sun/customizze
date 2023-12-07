@@ -1,0 +1,107 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #000000;
+
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #cbf9ffbd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    padding: 15px;
+    align-items: center;
+}
+
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inicio h1{
+    font-weight: lighter;
+}
+.inicio h4{
+    margin: 0 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+.contato{
+    display: none;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+.contato h5{
+    margin: 0 20px;
+}
+.contato img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#separar{
+    border-right: 1px solid #000;
+}
+.pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: #332d2d;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 70%;
+    align-items: center;
+}
+.pesquisa input {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    border-right: 1px solid #000;
+}
+.pesquisa button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.pesquisa img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* header */
+
+a {
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #ff6600;
+}
+
+fonte{
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+}
+
+
+
