@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registrar</title>
+        <link rel="stylesheet" href="/css/login.css" />
+    </head>
+    <body>
+        <div class="cadastro">
+            <form action="cadastrar">
+                <h1>Crie uma conta</h1>
+                <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    placeholder="Nome completo"
+                />
+                <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail"
+                />
+                <input
+                    type="text"
+                    name="senha"
+                    id="senha"
+                    placeholder="Senha"
+                />
+                <button id="botao-cadastrar">Cadastrar</button>
+            </form>
+            <button id="botao-ir-pro-login">Já tenho uma conta</button>
+        </div>
+        <!-- login -->
+        <div class="logar">
+            <form action="entrar">
+                <h1>Entrar</h1>
+                <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail"
+                />
+                <input
+                    type="text"
+                    name="senha"
+                    id="senha"
+                    placeholder="Senha"
+                />
+
+                <button id="botao-logar">Entrar</button>
+            </form>
+            <button id="botao-ir-pro-registro">Não tenho uma conta</button>
+            <button id="botao-ir-pro-registro">esqueci a senha</button>
+        </div>
+        <script src="/js/login.js"></script>
+    </body>
+</html>
