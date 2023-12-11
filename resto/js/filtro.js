@@ -1,21 +1,22 @@
 function mostrarAreaDeLoja() {
     var selecao = document.getElementById("categorias");
     var areasDeLoja = document.querySelectorAll(".areas-de-loja");
-    var titulosCategorias = document.querySelectorAll(".titulo-categoria");
+    var carrossel = document.querySelector('.carrossel');
 
-    areasDeLoja.forEach(function(area) {
+    areasDeLoja.forEach(function (area) {
         area.classList.remove("show");
     });
 
     if (selecao.value !== "todas") {
         var areaSelecionada = document.getElementById(selecao.value);
         areaSelecionada.classList.add("show");
+        carrossel.style.display = 'none';
     } else {
-        areasDeLoja.forEach(function(area) {
+        carrossel.style.display = 'flex';
+        areasDeLoja.forEach(function (area) {
             area.classList.add("show");
         });
     }
-
 }
 
 mostrarAreaDeLoja();
