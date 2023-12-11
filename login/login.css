@@ -29,7 +29,7 @@ body {
 }
 .cadastro input{
     margin: 1.7rem;
-    padding: 20px;
+    padding: 0 10px;
     height: 3rem;
     width: 44%;
     border: none;
