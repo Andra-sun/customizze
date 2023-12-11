@@ -33,11 +33,9 @@ body {
     width: 44%;
     border: none;
     outline: none;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
     background-color: #ffffff60;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
+    border-radius: 13px;
 }
 
 #botao-cadastrar{
