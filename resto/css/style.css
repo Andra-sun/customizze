@@ -12,7 +12,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
 
-    background-color: #cbf9ffbd;
+    /* background-color: #cbf9ffbd; */
+    background-color: #6475cb;
+    color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
     padding: 15px;
@@ -26,11 +28,11 @@ header {
 }
 .inicio h1 {
     font-weight: lighter;
+    font-style: oblique;
 }
 .inicio h4 {
     margin: 0 2rem;
-    font-weight: 600;
-    font-style: oblique;
+    font-weight: 200;
     cursor: pointer;
 }
 
@@ -101,6 +103,41 @@ header {
     cursor: pointer;
 }
 /* header */
+
+/* profile bar */
+
+.profile-bar{
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    justify-content: end;
+    align-items: center;
+
+    right: 0;
+    top: 6rem;
+    padding: 15px;
+
+    width: 5rem;
+    height: auto;
+
+    background-color: #ffffffe1;
+}
+.profile-bar button{
+    height: auto;
+    width: auto;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 5px 15px;
+
+    background-color: #627eea;
+    color: #ffff;
+    
+    cursor: pointer;
+}
+/* profile bar */
 
 /* nav bar */
 
