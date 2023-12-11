@@ -29,13 +29,13 @@ body {
 }
 .cadastro input{
     margin: 1.7rem;
-    padding: 10px;
+    padding: 20px;
     height: 3rem;
     width: 44%;
     border: none;
     outline: none;
     background-color: #ffffff60;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
