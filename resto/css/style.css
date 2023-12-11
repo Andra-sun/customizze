@@ -142,6 +142,15 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.profile-bar a:hover {
+    background-color: #519ef0;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile-bar p{
@@ -233,12 +242,12 @@ main{
 
 /* main */
 
-a {
+header a {
     transition: color 0.3s ease-in-out;
     text-decoration: none;
     color: #000000;
 }
-a:hover {
+header a:hover {
     color: #f9731a;
 }
 
