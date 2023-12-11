@@ -29,13 +29,14 @@ body {
 }
 .cadastro input{
     margin: 1.7rem;
+    padding: 5px;
     height: 3rem;
     width: 44%;
     border: none;
     outline: none;
     background-color: #ffffff60;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 13px;
+    border-radius: 10px;
 }
 
 #botao-cadastrar{
