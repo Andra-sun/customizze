@@ -1,6 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
-    margin: 10px 25px;
+    margin: 10px 200px;
     padding: 2rem;
     background: linear-gradient(to bottom, #6475cb 0%, #ffffff 50%);
     color: #000000;
@@ -10,7 +10,7 @@ body {
     flex-direction: column;
 }
 
-.cadastro{
+.cadastro {
     display: flex;
     flex-direction: column;
     height: 37rem;
@@ -19,55 +19,8 @@ body {
     text-align: center;
     background-color: #ffffffc7;
     border-radius: 35px;
-
 }
-.cadastro form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.cadastro input{
-    margin: 1.7rem;
-    height: 3rem;
-    width: 44%;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
-    background-color: #ffffff60;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-}
-
-#botao-cadastrar{
-    margin: 20px;
-    height: 3rem;
-    width: 38%;
-    padding: 10px;
-
-    border: none;
-    border-radius: 25px;
-
-    cursor: pointer;
-
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-
-    background-color: #6bc9ff;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-}
-
-#botao-ir-pro-login{
-    color: #6475cb;
-    background-color: #ffffff00;
-    border: none;
-    font-size: medium;
-}
-/* login */
-
-.logar{
+.logar {
     display: none;
     flex-direction: column;
     height: 37rem;
@@ -76,32 +29,30 @@ body {
     text-align: center;
     background-color: #ffffffc7;
     border-radius: 35px;
-
 }
-.logar form{
+.cadastro form, .logar form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.logar input{
-    margin: 1.7rem;
+.cadastro input, .logar input {
+    margin: 1.7rem 0;
     height: 3rem;
-    width: 44%;
+    width: 70%;
+    padding: 0 20px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
     background-color: #ffffff60;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 20px;
 }
 
-
-#botao-logar{
+#botao-cadastrar, #botao-logar {
     margin: 20px;
     height: 3rem;
-    width: 38%;
+    width: 60%;
     padding: 10px;
 
     border: none;
@@ -116,10 +67,30 @@ body {
     background-color: #6bc9ff;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
-#botao-ir-pro-registro{
+
+#botao-ir-pro-login {
+    color: #6475cb;
+    background-color: #ffffff00;
+    border: none;
+    font-size: medium;
+}
+
+#botao-ir-pro-registro {
     color: #6475cb;
     background-color: #ffffff00;
     border: none;
     font-size: medium;
     margin-bottom: 20px;
+}
+
+#parte-de-senha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+}
+#parte-de-senha img {
+    height: 2rem;
+    margin: 0 13px;
 }
