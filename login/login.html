@@ -22,14 +22,24 @@
                     id="email"
                     placeholder="E-mail"
                 />
-                <input
-                    type="text"
-                    name="senha"
-                    id="senha"
-                    placeholder="Senha"
-                />
+                <div id="parte-de-senha">
+                    <input
+                        type="password"
+                        name="senha"
+                        id="cadastro-senha"
+                        placeholder="Senha"
+                    />
+                    <img
+                        id="cadastro-mostrar-senha"
+                        src="https://cdn-icons-png.flaticon.com/128/10812/10812267.png"
+                        alt="Mostrar Senha"
+                        onclick="toggleSenha('cadastro')"
+                    />
+                </div>
+
                 <button id="botao-cadastrar">Cadastrar</button>
             </form>
+
             <button id="botao-ir-pro-login">Já tenho uma conta</button>
         </div>
         <!-- login -->
@@ -42,12 +52,20 @@
                     id="email"
                     placeholder="E-mail"
                 />
-                <input
-                    type="text"
-                    name="senha"
-                    id="senha"
-                    placeholder="Senha"
-                />
+                <div id="parte-de-senha">
+                    <input
+                        type="password"
+                        name="senha"
+                        id="login-senha"
+                        placeholder="Senha"
+                    />
+                    <img
+                        id="login-mostrar-senha"
+                        src="https://cdn-icons-png.flaticon.com/128/10812/10812267.png"
+                        alt="Mostrar Senha"
+                        onclick="toggleSenha('login')"
+                    />
+                </div>
 
                 <button id="botao-logar">Entrar</button>
             </form>
