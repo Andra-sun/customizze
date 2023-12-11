@@ -52,7 +52,7 @@
 
                 <button class="perfio">
                     <img
-                        src="https://cdn-icons-png.flaticon.com/128/3033/3033143.png"
+                        src="https://cdn-icons-png.flaticon.com/128/668/668709.png"
                         alt="profile-img"
                     />
                 </button>
@@ -60,18 +60,37 @@
         </header>
 
         <div class="profile-bar">
-            <p><img src="https://cdn-icons-png.flaticon.com/128/2589/2589175.png" alt="heart">Favoritos</p>
-            <p><img src="https://cdn-icons-png.flaticon.com/128/893/893081.png" alt="credit card">Pedidos</p>
-            <p><img src="https://cdn-icons-png.flaticon.com/128/3067/3067513.png" alt="pc">Extra</p>
+            <p>
+                <img
+                    src="https://cdn-icons-png.flaticon.com/128/2589/2589175.png"
+                    alt="heart"
+                />Favoritos
+            </p>
+            <p>
+                <img
+                    src="https://cdn-icons-png.flaticon.com/128/893/893081.png"
+                    alt="credit card"
+                />Pedidos
+            </p>
+            <p>
+                <img
+                    src="https://cdn-icons-png.flaticon.com/128/3067/3067513.png"
+                    alt="pc"
+                />Extra
+            </p>
             <a href="login/login.html">Entrar</a>
         </div>
 
         <nav>
-            <select name="categorias" id="categorias">
+            <select
+                name="categorias"
+                id="categorias"
+                onchange="mostrarAreaDeLoja()"
+            >
                 <option value="todas">Todas as categorias</option>
-                <option value="opcCaneca">Caneca</option>
-                <option value="opcCamisa">Camisa</option>
-                <option value="opcAlmofada">Almofada</option>
+                <option value="canecas">Canecas</option>
+                <option value="camisas">Camisas</option>
+                <option value="almofadas">Almofadas</option>
             </select>
         </nav>
 
@@ -83,36 +102,42 @@
             </div>
         </section>
 
-        <main>
-            <h1>Canecas</h1>
+        <main id="main">
             <div class="areas-de-loja" id="canecas">
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
+                <h1 class="titulo-categoria">Canecas</h1>
+                <div class="totalItem">
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                </div>
             </div>
 
-            <h1>Camisas</h1>
             <div class="areas-de-loja" id="camisas">
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
+                <h1 class="titulo-categoria">Camisas</h1>
+                <div class="totalItem">
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                </div>
             </div>
 
-            <h1>Almofada</h1>
-            <div class="areas-de-loja" id="almofada">
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
-                <div class="h6"></div>
+            <div class="areas-de-loja" id="almofadas">
+                <h1 class="titulo-categoria">Almofadas</h1>
+                <div class="totalItem">
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                    <div class="h6"></div>
+                </div>
             </div>
         </main>
 
         <script src="resto/js/header.js"></script>
-        <script src="app.js"></script>
+        <script src="resto/js/filtro.js"></script>
     </body>
 </html>
