@@ -107,7 +107,7 @@ header {
 /* profile bar */
 
 .profile-bar{
-    display: flex;
+    display: none;
     flex-direction: column;
 
     position: fixed;
@@ -115,27 +115,39 @@ header {
     align-items: center;
 
     right: 0;
-    top: 6rem;
     padding: 15px;
+
+    border-radius: 0 0 0 13px;
 
     width: 5rem;
     height: auto;
 
-    background-color: #ffffffe1;
+    background-color: #fbffffe1;
 }
-.profile-bar button{
-    height: auto;
-    width: auto;
+  
+.profile-bar a{
+    display: flex;
+
+    height: 2rem;
+    width: 80%;
 
     border: none;
     border-radius: 5px;
-
-    padding: 5px 15px;
 
     background-color: #627eea;
     color: #ffff;
     
     cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-bar p{
+    border-bottom: 1px solid #000;
+    width: 100%;
+    align-items: center;
 }
 /* profile bar */
 
@@ -227,7 +239,7 @@ a {
     color: #000000;
 }
 a:hover {
-    color: #ff6600;
+    color: #f9731a;
 }
 
 fonte {
