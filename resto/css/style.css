@@ -126,7 +126,7 @@ header {
     background-color: #fbffffe1;
 }
 
-.profile-bar a {
+#irProLogin {
     display: flex;
 
     height: 2rem;
@@ -148,7 +148,7 @@ header {
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.profile-bar a:hover {
+#irProLogin:hover {
     background-color: #519ef0;
     color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -162,10 +162,16 @@ header {
     flex-direction: row;
     justify-content: center;
     padding: 1px 15px;
+    text-decoration: none;
 }
 .profile-bar img {
     height: 20px;
     margin-right: 5px;
+}
+
+.profile-bar a{
+    color: #000;
+    text-decoration: none;
 }
 /* profile bar */
 
