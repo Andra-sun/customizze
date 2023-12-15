@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
     body {
         margin: 1rem;
         padding: 1rem;
@@ -76,7 +76,14 @@
         width: 20%;
         margin-right: 10px;
     }
-}
-.forMobile {
-    display: none;
+    .mobilePesquisa {
+        display: block;
+        position: fixed;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+    .pesquisa input {
+        border: none;
+    }
 }
