@@ -9,3 +9,12 @@ telefone.addEventListener("click", function () {
     }
 });
 
+const pessoa = document.querySelector('#profileMobile');
+const perfilBarra = document.querySelector('.pofileForMobile');
+
+pessoa.addEventListener('click', function(){
+    if (perfilBarra.style.display === "none" || perfilBarra.style.display === "") {
+        perfilBarra.style.display = "flex";
+    } else {
+        perfilBarra.style.display = "none";
+    }});
