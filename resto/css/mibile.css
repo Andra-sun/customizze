@@ -77,13 +77,36 @@
         margin-right: 10px;
     }
     .mobilePesquisa {
-        display: block;
+        display: none;
         position: fixed;
-        width: 70%;
+        width: 86%;
         justify-content: center;
         align-items: center;
     }
-    .pesquisa input {
+    .pesquisaMobile {
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        align-items: center;
+    }
+    .pesquisaMobile input {
         border: none;
+        padding: 8px;
+        font-size: 16px;
+        outline: none;
+    }
+    .pesquisaMobile button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .pesquisaMobile img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        cursor: pointer;
     }
 }

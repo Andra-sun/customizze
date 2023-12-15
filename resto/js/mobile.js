@@ -9,12 +9,30 @@ telefone.addEventListener("click", function () {
     }
 });
 
-const pessoa = document.querySelector('#profileMobile');
-const perfilBarra = document.querySelector('.pofileForMobile');
+const pessoa = document.querySelector("#profileMobile");
+const perfilBarra = document.querySelector(".pofileForMobile");
 
-pessoa.addEventListener('click', function(){
-    if (perfilBarra.style.display === "none" || perfilBarra.style.display === "") {
+pessoa.addEventListener("click", function () {
+    if (
+        perfilBarra.style.display === "none" ||
+        perfilBarra.style.display === ""
+    ) {
         perfilBarra.style.display = "flex";
     } else {
         perfilBarra.style.display = "none";
-    }});
+    }
+});
+
+const buscar = document.querySelector("#maisMobile");
+const barraBuscar = document.querySelector(".mobilePesquisa");
+
+buscar.addEventListener("click", function () {
+    if (
+        barraBuscar.style.display === "none" ||
+        barraBuscar.style.display === ""
+    ) {
+        barraBuscar.style.display = "block";
+    } else {
+        barraBuscar.style.display = "none";
+    }
+});
