@@ -27,7 +27,7 @@
         box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.4);
     }
     .principalForMobile h1 {
-        font-weight: lighter;
+        font-weight: 800;
         font-style: oblique;
     }
     .forMobile img {
