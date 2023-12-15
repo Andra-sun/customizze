@@ -7,7 +7,7 @@ body {
 }
 
 /* header */
-header {
+.forPC {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
