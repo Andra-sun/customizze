@@ -3,10 +3,10 @@
         margin: 1rem;
         padding: 1rem;
     }
-    .forPC{
+    .forPC {
         display: none;
     }
-    .forMobile{
+    .forMobile {
         display: flex;
         position: fixed;
         flex-direction: column-reverse;
@@ -14,12 +14,11 @@
         left: 0;
         right: 0;
     }
-    .principalForMobile{
+    .principalForMobile {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-
 
         height: 2.4rem;
         padding: 10px;
@@ -27,16 +26,16 @@
         background-color: #6475cb;
         box-shadow: 7px 2px 5px rgba(0, 0, 0, 0.4);
     }
-    .principalForMobile h1{
+    .principalForMobile h1 {
         font-weight: lighter;
         font-style: oblique;
     }
-    .forMobile img{
+    .forMobile img {
         height: 1.3rem;
         cursor: pointer;
     }
 
-    .ContatosForMobile{
+    .ContatosForMobile {
         display: none;
         flex-direction: row;
         left: 0;
@@ -48,7 +47,8 @@
         box-shadow: 7px 2px 5px rgba(0, 0, 0.2, 0.4);
     }
 
-    .ContatosForMobile a, .pofileForMobile a{
+    .ContatosForMobile a,
+    .pofileForMobile a {
         text-decoration: none;
         color: #000;
         font-weight: 700;
@@ -56,12 +56,12 @@
         flex-direction: row;
         align-items: center;
     }
-    .ContatosForMobile img{
+    .ContatosForMobile img {
         align-items: center;
         margin: 0 1rem 0;
     }
 
-    .pofileForMobile{
+    .pofileForMobile {
         display: none;
         flex-direction: row;
         justify-content: space-between;
@@ -69,11 +69,14 @@
         background-color: #fff;
         padding: 7px;
     }
-    .pofileForMobile img{
+    .pofileForMobile img {
         margin-right: 8px;
     }
-    #irProLogin{
+    #irProLogin {
         width: 20%;
         margin-right: 10px;
     }
+}
+.forMobile {
+    display: none;
 }
