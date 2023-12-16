@@ -1,8 +1,4 @@
 @media screen and (max-width: 760px) {
-    body {
-        margin: 1rem;
-        padding: 1rem;
-    }
     .forPC {
         display: none;
     }
@@ -79,15 +75,21 @@
     .mobilePesquisa {
         display: none;
         position: fixed;
-        width: 86%;
+        width: 100%;
+        top: 1rem;
         justify-content: center;
         align-items: center;
+    }
+    .areaPesquisaMobile{
+        display: flex;
+        justify-content: center;
     }
     .pesquisaMobile {
         display: flex;
         align-items: center;
         background-color: #ffffff;
         padding: 10px;
+        width: 80%;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         align-items: center;
@@ -109,4 +111,15 @@
         margin-left: 10px;
         cursor: pointer;
     }
+    /* header */
+    /* nav-bar */
+
+    nav {
+        display: block;
+        width: 100%;
+        height: 3.3rem;
+        align-items: center;
+    }
+
+    /* nav-bar */
 }
