@@ -202,14 +202,12 @@ nav {
     margin: 5px 100px;
     padding: 20px;
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     flex-direction: row;
     height: 20rem;
 }
 #menores {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 30%;
     padding: 5px;
     align-items: center;
@@ -219,20 +217,50 @@ nav {
     width: 70%;
     height: 20rem;
     margin: 10px;
+
+    background-image: url(fotos/natalAtena.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carrossel11, .carrossel111{
+    display: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 5px rgba(1, 1, 1, 1);
 }
 .carrossel2 {
     box-shadow: 0 2px 5px rgba(1, 1, 1, 1);
-    width: 100%;
-    height: 50%;
+    width: 50%;
+    height: 98%;
     margin: 10px;
+
+    background-image: url(fotos/pitty.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .carrossel3 {
     box-shadow: 0 2px 5px rgba(1, 1, 1, 1);
-    width: 100%;
-    height: 50%;
+    width: 50%;
+    height: 98%;
 
     margin: 10px;
+
+    background-image: url(fotos/atena.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.carrossel111{
+    background-image: url(fotos/atena.jpeg);
+}
+.carrossel11{
+    background-image: url(fotos/pitty.jpeg);
+}
+
 /* carrossel */
 
 /* main */
@@ -252,7 +280,7 @@ main {
 .totalItem {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .areas-de-loja.show {
     display: flex;
