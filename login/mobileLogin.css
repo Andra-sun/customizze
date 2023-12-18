@@ -1,0 +1,9 @@
+@media screen and (max-width: 760px){
+    body{
+        margin: 0;
+        padding: 1.4rem;
+    }
+    #parte-de-senha img{
+        margin: 0;
+    }
+}
